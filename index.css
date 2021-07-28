@@ -1,0 +1,163 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width:1440px;
+    font-size:15px;
+}
+
+.container{
+    display:flex;
+    background-color: hsl(233, 47%, 7%);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 60%;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.div-1{
+    background-color: hsl(244, 38%, 16%);
+    text-align: justify;
+    flex-basis: 370px;
+    padding: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;    
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+#side{
+    color: hsl(277, 64%, 61%);
+}
+
+.inside{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-weight: 700;
+    font-size:x-large;
+
+}
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+
+}
+
+.another{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    font-size: x-small;
+ 
+}
+.para-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/*second div*/
+
+.div-2{
+    position: relative;
+    flex-basis: 370px;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+
+   }
+
+   img{
+     display:block;
+    width:100%;
+    height:100%;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+   }
+ 
+   .inside-div{
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       height: 100%;
+       width: 100%;
+       opacity: 0.5;
+       background-color: hsl(277, 64%, 61%);
+       border-top-right-radius: 7px;
+       border-bottom-right-radius: 7px; 
+     }
+
+  
+     .attribution {   
+        font-size: 11px; 
+        color: white;
+        position: absolute;
+        top:400px ;
+        left:350px;
+
+    }
+
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+       
+
+    @media only screen and (max-width: 768px) {
+      
+        body{
+            background-color:white;  
+            width:375px;
+
+        }
+        .container{
+            width: 100%;
+            margin-top: 0;
+            margin-left: 0;
+            background-color: hsl(233, 47%, 7%);
+            flex-wrap: wrap-reverse;
+        }
+
+        .div-2{
+            flex-basis: 300px;
+        }
+
+        .div-2,img, .inside-div{
+           border-top-right-radius: 7px;
+           border-top-left-radius: 7px;
+           border-bottom-right-radius:0;
+    
+           } 
+           
+           .div-1{
+            text-align: center;
+            border-top-left-radius: 0;
+            border-bottom-right-radius: 7px;
+          border-bottom-left-radius: 7px;
+          padding: 15px; 
+          flex-basis: 300px;
+               }
+        
+               .para-1{
+                flex-direction:column;
+            }
+        
+           
+            .attribution {   
+               visibility: hidden;
+            }
+           
+        
+    
+         }
+    
