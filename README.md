@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot
 
 ![](https://github.com/soalemusharafa/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-07%20Document.png)
-![](https://github.com/soalemusharafa/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-07%20Document.png)
+![](https://github.com/soalemusharafa/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-54%20Document.png)
 
 
 
