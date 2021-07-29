@@ -29,15 +29,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/soalemusharafa/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-07%20Document.png)
-![](https://github.com/soalemusharafa/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-54%20Document.png)
+![](https://github.com/HTML-AND-CSS-PROJECTS/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-07%20Document.png)
+![](https://github.com/HTML-AND-CSS-PROJECTS/Stats-preview-card-component/blob/main/Screenshots/Screenshot%202021-07-28%20at%2009-49-54%20Document.png)
 
 
 
 ### Links
 
-- Solution URL:(https://github.com/soalemusharafa/Stats-preview-card-component)
-- Live Site URL:( https://soalemusharafa.github.io/Stats-preview-card-component)
+- Solution URL:(https://github.com/HTML-AND-CSS-PROJECTS/Stats-preview-card-component)
+- Live Site URL:(https://html-and-css-projects.github.io/Stats-preview-card-component/)
 
 ## My process
 -I created a repository on github clone to my desktop , created my index.html and index.css files, worked on them and finally push the code to github.
